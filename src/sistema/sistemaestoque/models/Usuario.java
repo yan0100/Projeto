@@ -4,7 +4,7 @@ import org.springframework.data.neo4j.core.schema.Id;
 import org.springframework.data.neo4j.core.schema.Node;
 
 @Node("Usuario")
-public class Usuaro {
+public class Usuario {
     @Id
     private String id;
     private String cargo;
