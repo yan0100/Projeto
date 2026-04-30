@@ -4,10 +4,11 @@ import org.springframework.data.neo4j.core.schema.Id;
 import org.springframework.data.neo4j.core.schema.Node;
 
 @Node("Usuario")
-public class Usuaro {
+public class Usuario {
     @Id
     private String id;
     private String cargo;
+    private String senha;
     private String nome;
     public Usuario(){}
     public Usuario(String id, String cargo, String nome) {
@@ -33,4 +34,6 @@ public class Usuaro {
     public void setNome(String nome) {
         this.nome = nome;
     }
+    public String getSenha() { return senha; }
+    public void setSenha(String senha) { this.senha = senha; }
 }

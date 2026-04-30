@@ -14,7 +14,6 @@ public class Produto {
     private String id;
     private String nome;
     private float preco;
-    private int quantidade;
     @Relationship(type= "PERTENCE_A")
     private Categoria categoria;
     @Relationship(type="MEDIDO_EM")
@@ -30,7 +29,6 @@ public class Produto {
         this.id = id;
         this.nome = nome;
         this.preco = preco;
-        this.quantidade = quantidade;
         this.categoria = categoria;
         this.unidadeMedida = unidadeMedida;
         this.movimentacao = (movimentacao !=null) ? new ArrayList<>(movimentacao) : new ArrayList<>();
@@ -53,12 +51,6 @@ public class Produto {
     public void setPreco(float preco) {
         this.preco = preco;
 
-    }
-    public int getQuantidade() {
-        return quantidade;
-    }
-    public void setQuantidade(int quantidade) {
-        this.quantidade = quantidade;
     }
     public Categoria getCategoria() {
         return categoria;

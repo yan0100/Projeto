@@ -20,15 +20,20 @@ public class SistemaEstoqueApplication {
 
     public static void main(String[] args) {
         // Credenciais do Neo4j Aura
-        System.setProperty("logging.level.org.springframework.data.neo4j", "ERROR");
-        System.setProperty("spring.neo4j.uri", "neo4j+s://b66256f5.databases.neo4j.io");
-        System.setProperty("spring.neo4j.authentication.username", "b66256f5");
-        System.setProperty("spring.neo4j.authentication.password", "rbKcSnDl7j-mKaH87SWU3LPeb9J4oLy0zGL6KPLkurA");
-        System.setProperty("spring.neo4j.database", "b66256f5");
+                SpringApplication.run(SistemaEstoqueApplication.class, args);
+                // Não coloque nada aqui embaixo agora!
+                // Deixe o Spring subir o servidor primeiro.
+            }
+        }
+       // System.setProperty("logging.level.org.springframework.data.neo4j", "ERROR");
+  //      System.setProperty("spring.neo4j.uri", "neo4j+s://b66256f5.databases.neo4j.io");
+//System.setProperty("spring.neo4j.authentication.username", "b66256f5");
+  //      System.setProperty("spring.neo4j.authentication.password", "rbKcSnDl7j-mKaH87SWU3LPeb9J4oLy0zGL6KPLkurA");
+  //      System.setProperty("spring.neo4j.database", "b66256f5");
 
-        SpringApplication.run(SistemaEstoqueApplication.class, args);
-    }
+       // SpringApplication.run(SistemaEstoqueApplication.class, args);
 
+/*
     @Bean
     CommandLineRunner menuInterativo(
             ProdutoService produtoService,
@@ -168,4 +173,4 @@ public class SistemaEstoqueApplication {
             System.exit(0);
         };
     }
-}
+}*/
