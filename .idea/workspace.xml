@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ae1eb11-0c2f-4852-baba-d8ad6a033255" name="Changes" comment="projeto base1">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sistema-estoque.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/site.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sistema/sistemaestoque/SistemaEstoqueApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sistema/sistemaestoque/SistemaEstoqueApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sistema/sistemaestoque/controllers/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sistema/sistemaestoque/controllers/DashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sistema/sistemaestoque/models/Lote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sistema/sistemaestoque/models/Lote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sistema/sistemaestoque/models/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sistema/sistemaestoque/models/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sistema/sistemaestoque/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sistema/sistemaestoque/models/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sistema/sistemaestoque/repository/LoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sistema/sistemaestoque/repository/LoteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sistema/sistemaestoque/services/EstoqueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sistema/sistemaestoque/services/EstoqueService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/SistemaEstoqueApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/models/Produto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/models/Usuario.class" beforeDir="false" />
-    </list>
+    <list default="true" id="2ae1eb11-0c2f-4852-baba-d8ad6a033255" name="Changes" comment="projeto base1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "yan0100"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/yan0100/Projeto",
+    "accountId": "f7988426-cb75-4e2f-b489-b3db252a5e78"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -165,7 +155,23 @@
       <option name="project" value="LOCAL" />
       <updated>1777315991499</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="projeto base1">
+      <option name="closed" value="true" />
+      <created>1777574798966</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1777574798966</updated>
+    </task>
+    <task id="LOCAL-00004" summary="projeto base1">
+      <option name="closed" value="true" />
+      <created>1777574805851</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1777574805851</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
