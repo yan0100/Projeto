@@ -4,10 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ae1eb11-0c2f-4852-baba-d8ad6a033255" name="Changes" comment="projeto base1">
-      <change beforePath="$PROJECT_DIR$/src/sistema/sistemaestoque/repository/MovimentacaoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sistema/sistemaestoque/repository/MovimentacaoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/site.html" beforeDir="false" />
+    <list default="true" id="2ae1eb11-0c2f-4852-baba-d8ad6a033255" name="Changes" comment="projeto base para html">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sistema/sistemaestoque/services/EstoqueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sistema/sistemaestoque/services/EstoqueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/models/Categoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/models/Categoria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/models/Movimentacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/models/Movimentacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/models/UnidadeMedida.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/models/UnidadeMedida.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/repository/CategoriaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/repository/CategoriaRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/repository/MovimentacaoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/repository/MovimentacaoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/repository/ProdutoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/repository/ProdutoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/repository/UnidadeMedidaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/repository/UnidadeMedidaRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/repository/UsuarioRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/services/CategoriaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/services/CategoriaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/services/MovimentacaoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/services/MovimentacaoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/services/ProdutoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/services/ProdutoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/services/UnidadeMedidaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/services/UnidadeMedidaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/services/UsuarioService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sistema/sistemaestoque/services/UsuarioService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/site.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777575382724</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="projeto base para html">
+      <option name="closed" value="true" />
+      <created>1777578849003</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1777578849003</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +222,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="projeto base" />
     <MESSAGE value="projeto base1" />
-    <option name="LAST_COMMIT_MESSAGE" value="projeto base1" />
+    <MESSAGE value="projeto base para html" />
+    <option name="LAST_COMMIT_MESSAGE" value="projeto base para html" />
   </component>
 </project>

@@ -48,6 +48,18 @@ public class EstoqueService {
         mov.setData(LocalDate.now());
 
         movimentacaoRepository.save(mov);
+    }//tirar casso de erro
+    public void registrarEntradaLote(String produtoId, int qtd, LocalDate validade, String codigoLote) {
+        Produto produto = produtoRepository.findById(produtoId)
+                .orElseThrow(() -> new RuntimeException("Produto não encontrado"));
+
+        Lote novoLote = new Lote();
+        novoLote.setProduto(produto);
+        novoLote.setQuantidade(qtd);
+        novoLote.setDataValidade(validade);
+        novoLote.setCodigo(codigoLote);
+
+        loteRepository.save(novoLote);
     }
 
     // 4. LISTAGEM GERAL PARA O DASHBOARD
